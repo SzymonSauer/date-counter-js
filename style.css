@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #fff;
+	height: 100vh;
+	color: #333;
+	font-size: 24px;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 600px;
+	padding: 20px;
+}
+
+.step-box {
+	margin-bottom: 5px;
+}
+
+.btn-box {
+	display: flex;
+	justify-content: center;
+}
+
+.message-date {
+	text-align: center;
+	padding-top: 20px;
+	font-size: 28px;
+}
+
+.btn {
+	padding: 10px;
+	border-radius: 4px;
+	margin: 0 5px;
+	cursor: pointer;
+}
